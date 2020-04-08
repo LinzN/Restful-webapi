@@ -13,15 +13,15 @@ package de.linzn.restfulWebApi;
 
 
 import com.sun.net.httpserver.HttpServer;
-import de.azcore.azcoreRuntime.modules.pluginModule.AZPlugin;
 import de.linzn.restfulWebApi.handlers.RootHandlerProvider;
+import de.stem.stemSystem.modules.pluginModule.STEMPlugin;
 
 import java.io.File;
 import java.io.IOException;
 import java.net.InetSocketAddress;
 
 
-public class RestfulWebApiPlugin extends AZPlugin {
+public class RestfulWebApiPlugin extends STEMPlugin {
 
     public static RestfulWebApiPlugin restfulWebApiPlugin;
     private HttpServer httpServer;

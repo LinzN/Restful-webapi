@@ -12,7 +12,7 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>de.azcore.plugins</groupId>
+    <groupId>de.stem.plugins</groupId>
     <name>restful-webapi</name>
     <repositories>
         <repository>
@@ -59,27 +59,27 @@
     <artifactId>restful-webapi</artifactId>
     <dependencies>
         <dependency>
-            <groupId>de.azcore</groupId>
-            <artifactId>azcore-runtime</artifactId>
+            <groupId>de.stem</groupId>
+            <artifactId>stem-system</artifactId>
             <version>0.0.1</version>
         </dependency>
         <dependency>
-            <groupId>de.azcore.plugins</groupId>
+            <groupId>de.stem.plugins</groupId>
             <artifactId>heating-status</artifactId>
             <version>0.0.1</version>
         </dependency>
         <dependency>
-            <groupId>de.azcore.plugins</groupId>
+            <groupId>de.stem.plugins</groupId>
             <artifactId>local-weather</artifactId>
             <version>0.0.1</version>
         </dependency>
         <dependency>
-            <groupId>de.azcore.plugins</groupId>
+            <groupId>de.stem.plugins</groupId>
             <artifactId>home-devices</artifactId>
             <version>0.0.1</version>
         </dependency>
         <dependency>
-            <groupId>de.azcore.plugins</groupId>
+            <groupId>de.stem.plugins</groupId>
             <artifactId>trash-calender</artifactId>
             <version>0.0.1</version>
         </dependency>
